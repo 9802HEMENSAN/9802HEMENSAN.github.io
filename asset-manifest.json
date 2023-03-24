@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.ca06b21f.css",
-    "main.js": "/static/js/main.6fbedcb1.js",
+    "main.js": "/static/js/main.f627e5fa.js",
     "static/js/787.c85b60d9.chunk.js": "/static/js/787.c85b60d9.chunk.js",
     "static/media/b.png": "/static/media/b.e0d4623391a95d377e14.png",
     "static/media/Products_Page.PNG": "/static/media/Products_Page.eada17652ff54b9f51e4.PNG",
     "static/media/y.png": "/static/media/y.bf8db12a6e1be4a685cb.png",
-    "static/media/Alal-Uddin-Resume.pdf": "/static/media/Alal-Uddin-Resume.1adee479908ecb00c20f.pdf",
     "static/media/so2.png": "/static/media/so2.445675a0a00c2757a1d6.png",
     "static/media/redux.png": "/static/media/redux.1b4bb5fceb01b19da59d.png",
     "static/media/so4.png": "/static/media/so4.4644a4b2b8ed5f538eec.png",
+    "static/media/Hemensan-Mahilange-Resume.pdf": "/static/media/Hemensan-Mahilange-Resume.6eec5952122b3cd46b93.pdf",
     "static/media/chakraui.png": "/static/media/chakraui.15320604467d004df871.png",
     "static/media/so5.png": "/static/media/so5.e3384d6ff9fda6414c9a.png",
     "static/media/lms.png": "/static/media/lms.7879c910e62cd7870771.png",
@@ -27,11 +27,11 @@
     "static/media/react.svg": "/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
     "index.html": "/index.html",
     "main.ca06b21f.css.map": "/static/css/main.ca06b21f.css.map",
-    "main.6fbedcb1.js.map": "/static/js/main.6fbedcb1.js.map",
+    "main.f627e5fa.js.map": "/static/js/main.f627e5fa.js.map",
     "787.c85b60d9.chunk.js.map": "/static/js/787.c85b60d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca06b21f.css",
-    "static/js/main.6fbedcb1.js"
+    "static/js/main.f627e5fa.js"
   ]
 }
