@@ -1,0 +1,148 @@
+
+
+.main_container {
+  padding: 60px 0;
+}
+
+.project_container {
+  width: 80%;
+  margin: auto;
+}
+
+
+.project_heading .title {
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 25px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.project_heading .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 300px;
+  height: 3px;
+  background: yellow;
+  transform: translate(-50%);
+}
+
+.project_heading .title::after {
+  content: "Things that I built";
+  position: absolute;
+  bottom: -17px;
+  left: 50%;
+  font-size: 25px;
+  color: yellow;
+  padding: 5px;
+  background-color:#1a202c;
+  transform: translate(-50%);
+}
+
+
+
+
+.project_box {
+  padding: 20px;
+  height: auto;
+   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  border-radius: 10px;
+
+}
+
+.project_box:hover {
+  box-shadow: rgba(90, 6, 190, 0.9) 0px 18px 50px -10px;
+  cursor: pointer;
+
+}
+
+.project_image img {
+  border-radius: 10px;
+  height: 170px;
+  transition: transform 0.5s linear;
+}
+.project_image img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in;
+}
+
+.project_name {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 20px 0;
+  color: yellow;
+}
+
+.project_tech_stack {
+  padding: 10px 0;
+}
+
+.project_tech_stack h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: gainsboro;
+}
+
+.project_tech_stack span {
+  font-size: 15px;
+  color: yellow;
+  font-weight: 500;
+}
+
+.project_icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.project_icon div {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.1s ease;
+  background-color: yellow;
+  border-radius: 50%;
+}
+.project_icon div:hover {
+  border-radius: 50%;
+  background-color: red;
+  color: #fff;
+}
+
+.project_icon a {
+  font-size: 30px;
+}
+.project_desc p {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+
+@media screen and (max-width:640px){
+  
+.project_heading .title {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.project_heading .title::before {
+  display: none;
+}
+
+.project_heading .title::after {
+  display: none;
+}
+
+}

@@ -1,0 +1,237 @@
+.skills_container {
+    width: 100%;
+    margin: auto;
+    padding: 60px 0;
+
+}
+
+.skill_heading .title {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 25px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+/* .skill_heading .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 300px;
+    height: 3px;
+    background: yellow;
+    transform: translate(-50%);
+  } */
+
+.skill_heading .title::after {
+    content: "My Skills , My Strength";
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    font-size: 25px;
+    color: blue;
+    padding: 5px;
+    background-color: white;
+    transform: translate(-50%);
+}
+
+
+.skills_grid {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    /* background-color: red; */
+
+}
+
+.skills_grid_box {
+    height: 170px;
+    border-radius: 10px;
+    /* background-color: black;
+    box-shadow: rgb(255, 86, 34) 0px 5px 15px; */
+    color: white;
+    animation: all 3s ease-in-out;
+}
+
+.skills_grid_box:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+    box-shadow: 4px 5px 4px 3px rgba(165, 233, 7, 0.976) !important;
+    cursor: pointer;
+
+}
+
+.skills_grid_box_img {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills_grid_box img {
+    width: 50%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.skills_grid_box_dark img {
+    width: 70%;
+    height: 75%;
+}
+
+.skills_grid_box_h3 {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* --------------------------------------------------------------- */
+.skills_btn {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills_btn>h1 {
+    font-size: 30px;
+
+}
+
+
+.skills_btn button {
+    padding: 8px 35px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid grey;
+    background-color: #e4002b;
+    color: #fff;
+}
+
+
+.toolsbtn {
+    text-align: center;
+    margin: 50px 0px;
+
+}
+
+.toolsbtn>h1 {
+    font-size: 30px;
+
+}
+
+
+.toolsbtn button {
+    padding: 8px 35px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid grey;
+    background-color: #e4002b;
+    color: #fff;
+}
+
+
+.all {
+    background-color: #e4002b;
+    color: #fff;
+    border: 2px solid #03a9f4;
+}
+
+
+/* Tools */
+
+.container5 {
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
+
+
+.toolContainer {
+    margin: 50px auto;
+    width: 99%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* justify-content: center; */
+    gap: 30px;
+}
+
+.toolContainer>div {
+    width: auto;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #3500D3;
+}
+
+
+.toolContainer>div>img {
+    /* padding: -30px; */
+    margin: 0px;
+}
+
+.Github {
+    width: 80%;
+    margin: auto;
+    margin-left: 500px;
+}
+
+@media only screen and (min-width: 613px) and (max-width: 1090px) {
+    .container {
+        padding: 70px 0px;
+        margin-bottom: 20px;
+
+    }
+
+    .toolContainer {
+        margin: 50px auto;
+        width: 60%;
+
+        height: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* justify-content: center; */
+        text-align: center;
+        grid-gap: 20px;
+
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 612px) {
+    .container {
+        padding: 50px 0px;
+        margin-bottom: 20px;
+
+    }
+
+    .toolContainer {
+        margin: 10px auto;
+        width: 60%;
+
+        height: auto;
+        margin: auto;
+        margin-left: 65px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* justify-content: center; */
+        text-align: center;
+        grid-gap: 15px;
+
+    }
+
+
+}

@@ -1,0 +1,118 @@
+ .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      text-align: center;
+      font-family: "Poppins", sans-serif; 
+    }
+
+    .title {
+       
+        text-align: center;
+        font-size: 35px;
+        font-weight: 500;
+       
+        font-family: "Poppins", sans-serif;
+        color:  white;
+    }
+
+
+    .descritpon {
+      font-size: 15px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+
+    .about-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+     
+    }
+
+    .columnAbout {
+      flex-basis: 100%;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    .rightAbout {
+      text-align: justify;
+    }
+
+    
+    @media screen and (min-width: 1024px) {
+      .about {
+        padding: 50px;
+      }
+
+      .title {
+   
+        text-align: center;
+        font-size: 28px;
+        font-weight: 500;
+        font-family: "Poppins", sans-serif;
+        color:  white;
+      }
+
+      .text {
+        font-size: 25px;
+        margin-bottom: 40px;
+        color: blue;
+      }
+      .descritpon {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+
+      .columnAbout {
+        flex-basis: 33.33%;
+      }
+
+      .rightAbout {
+        text-align: justify;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .about {
+        padding: 80px;
+      }
+
+      .title {
+        font-size: 48px;
+        margin-bottom: 20px;
+       
+      }
+
+      .text {
+        font-size: 36px;
+        margin-bottom: 30px;
+        color: blue;
+      }
+
+      .descritpon {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .columnAbout {
+        flex-basis: 50%;
+      }
+
+      .rightAbout {
+        text-align: right;
+      }
+    }
+
+    @media screen and (max-width: 760px){
+      .text {
+        font-size: 25px;
+        margin-bottom: 30px;
+        color: blue;
+      }
+    }
