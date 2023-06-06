@@ -1,22 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e139c937.css",
-    "main.js": "/static/js/main.59460a25.js",
+    "main.css": "/static/css/main.2eaa4442.css",
+    "main.js": "/static/js/main.5a651e3e.js",
     "static/js/787.c85b60d9.chunk.js": "/static/js/787.c85b60d9.chunk.js",
-    "static/media/b.png": "/static/media/b.e0d4623391a95d377e14.png",
-    "static/media/Products_Page.PNG": "/static/media/Products_Page.eada17652ff54b9f51e4.PNG",
-    "static/media/y.png": "/static/media/y.bf8db12a6e1be4a685cb.png",
     "static/media/so2.png": "/static/media/so2.445675a0a00c2757a1d6.png",
     "static/media/redux.png": "/static/media/redux.1b4bb5fceb01b19da59d.png",
     "static/media/so4.png": "/static/media/so4.4644a4b2b8ed5f538eec.png",
     "static/media/Hemensan-Mahilange-Resume.pdf": "/static/media/Hemensan-Mahilange-Resume.6eec5952122b3cd46b93.pdf",
     "static/media/chakraui.png": "/static/media/chakraui.15320604467d004df871.png",
     "static/media/so5.png": "/static/media/so5.e3384d6ff9fda6414c9a.png",
-    "static/media/lms.png": "/static/media/lms.7879c910e62cd7870771.png",
     "static/media/so3.png": "/static/media/so3.ddf49384f01d0b6de6c0.png",
     "static/media/so1.png": "/static/media/so1.697daf5b0a056e39d2ea.png",
     "static/media/boostrap.png": "/static/media/boostrap.c5dedb5348b058d36661.png",
-    "static/media/s.jpg": "/static/media/s.8980685e53d07fa5b351.jpg",
     "static/media/css.png": "/static/media/css.1a57e67ac1fd2ea84d64.png",
     "static/media/mongodb.png": "/static/media/mongodb.7a16fc61d457c9e340e2.png",
     "static/media/Hemensan_Mahilange_img.jpg": "/static/media/Hemensan_Mahilange_img.8df38b9b0ca1fa686b60.jpg",
@@ -26,12 +21,12 @@
     "static/media/expressjs.webp": "/static/media/expressjs.5ee70a8e8ebddd86f2f7.webp",
     "static/media/react.svg": "/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
     "index.html": "/index.html",
-    "main.e139c937.css.map": "/static/css/main.e139c937.css.map",
-    "main.59460a25.js.map": "/static/js/main.59460a25.js.map",
+    "main.2eaa4442.css.map": "/static/css/main.2eaa4442.css.map",
+    "main.5a651e3e.js.map": "/static/js/main.5a651e3e.js.map",
     "787.c85b60d9.chunk.js.map": "/static/js/787.c85b60d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e139c937.css",
-    "static/js/main.59460a25.js"
+    "static/css/main.2eaa4442.css",
+    "static/js/main.5a651e3e.js"
   ]
 }
