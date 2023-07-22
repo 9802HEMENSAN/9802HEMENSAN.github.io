@@ -1,26 +1,19 @@
 import React from "react";
 import { Box, SimpleGrid, useColorMode } from "@chakra-ui/react";
 import "./Projects.css";
-import lms from "../../Images/lms.png"
-import y from "../../Images/y.png"
-import b from "../../Images/b.png"
-import s from "../../Images/s.jpg"
-import e_com from "../../Images/Products_Page.PNG"
 import { FaGithub, FaEye } from "react-icons/fa";
 
- 
-  const Projects = () => {
+
+const Projects = () => {
 
   return (
     <div
       id="projects"
       className="main_container"
       style={{
-        // backgroundColor: "#edf2f8",
-        // backgroundColor: "#2c1e4a",
         backgroundColor: "#4d0026",
-        color : "white"
-      }} 
+        color: "white"
+      }}
     >
       <div className="project_container">
         <div className="project_heading">
@@ -30,31 +23,163 @@ import { FaGithub, FaEye } from "react-icons/fa";
         </div>
 
         <div className="project_grid">
-          <SimpleGrid columns={[1, 1, 2, 3]} spacing="40px">
-
-            <Box>
-              <div 
+          <SimpleGrid columns={[1, 1, 2, 2, 2]} spacing="30px">
+          <Box>
+              <div
                 className="project_box project-card"
-                style={{
-                  backgroundColor:  "#1a202c",
-                }}
+      
               >
                 <div className="project_image">
-                  <img src="https://user-images.githubusercontent.com/106810850/208999215-29b192e9-53fb-48a4-a8aa-54192e093086.png" alt="Learning management" />
+                  <img width="100%" src="https://user-images.githubusercontent.com/111531676/243783875-9d97532f-d905-4373-825c-7964f45c93b0.png" alt="Learning managemen" />
                 </div>
 
                 <div className="project_name project-title"   >
-                  <h2>Learning Management</h2>
+                  <h2>Caratalane : Indian jewellery brand</h2>
                 </div>
                 <div className="project_desc project-description"   >
                   <p>
-                  This is one of the best project that I have made. There are two main persons. One 
-                  is Admin and another Student
+                     Discover fashionable jewelry for the modern generation on our trendy e-commerce site.
                   </p>
                 </div>
                 <div className="project_tech_stack project-tech-stack"   >
                   <h5>
-                    <span>Tech Stack :</span> JavaScript, Html, Css
+                    <span>Tech Stack :</span> JavaScript, Chakra-UI,   React.js, Redux, Nodejs, MongoDB, Express.js
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link project-github-link"   >
+                    <a
+                      href="https://github.com/9802HEMENSAN/unit-6-project-CaretLane-clone"
+                      rel="noopener norefferer"
+                      target="_blank"
+
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link project-deployed-link"    >
+                    <a
+                      href="https://caratlane.vercel.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+            <Box> 
+              <div
+                className="project_box project-card"
+   
+              >
+                <div className="project_image">
+                  <img  src="https://user-images.githubusercontent.com/111531676/246809222-28a91ed1-820b-4bc0-83a9-80226b88f072.png" alt="Learning management" />
+                </div>
+
+                <div className="project_name project-title"   >
+                  <h2>Clone of Sephora : Beauty </h2>
+                </div>
+                <div className="project_desc project-description"   >
+                  <p>
+                  Explore a wide range of skincare, makeup, and beauty products, meticulously curated to elevate your self-care routine and enhance your natural radiance.
+                  </p>
+                </div>
+                <div className="project_tech_stack project-tech-stack"   >
+                  <h5>
+                    <span>Tech Stack :</span> HTML, CSS, JavaScript, JSON Server 
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link project-github-link"   >
+                    <a
+                      href="https://github.com/9802HEMENSAN/Clone-of-Sephora"
+                      rel="noopener norefferer"
+                      target="_blank"
+
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link project-deployed-link"    >
+                    <a
+                      href="https://timely-wisp-f8d982.netlify.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+            <Box>
+              <div
+                className="project_box project-card"
+     
+              >
+                <div className="project_image">
+                  <img   src="https://user-images.githubusercontent.com/112754760/229575461-84775f95-e39e-4f1c-89e1-e9cbfab22a77.png" alt="styles-up" />
+                </div>
+
+                <div className="project_name project-title"   >
+                  <h2>StylesUp : Indian e-commerce marketplace</h2>
+                </div>
+                <div className="project_desc project-description"   >
+                  <p>
+                  India's premier online shopping experience, powered by Paytm - convenience and quality guaranteed.
+                  </p>
+                </div>
+                <div className="project_tech_stack project-tech-stack"   >
+                  <h5>
+                    <span>Tech Stack :</span>  HTML, CSS, JavaScript, React.js,
+                    Chakra-UI
+                  </h5>
+                </div>
+                <div className="project_icon">
+                  <div className="github_link project-github-link"   >
+                    <a
+                      href="https://github.com/9802HEMENSAN/Styles-Up"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="deploy_link project-deployed-link"    >
+                    <a
+                      href="https://stylesup121.vercel.app/"
+                      rel="noopener norefferer"
+                      target="_blank"
+                    >
+                      <FaEye />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Box>
+            <Box>
+              <div
+                className="project_box project-card"
+             
+              >
+                <div className="project_image">
+                  <img src="https://user-images.githubusercontent.com/111531676/246816272-b9a0805a-e7d5-4545-b960-e4ed16ff9ca0.png" alt="Dress-up.com" />
+                </div>
+
+                <div className="project_name project-title"   >
+                  <h2>
+                  Dress-Up : Embrace the essence of modern fashion</h2>
+                </div>
+                <div className="project_desc project-description"   >
+                  <p  >
+                  Dress-up.com is an e-commerce website that aims to provide the new generation with the latest fashion trends.
+                  </p>
+                </div>
+                <div className="project_tech_stack project-tech-stack"   >
+                  <h5>
+                    <span>Tech Stack :</span> HTML, CSS, JavaScript, React, Chakra-UI
                   </h5>
                 </div>
                 <div className="project_icon">
@@ -63,7 +188,7 @@ import { FaGithub, FaEye } from "react-icons/fa";
                       href="https://github.com/9802HEMENSAN/potent-toothbrush-7925"
                       rel="noopener norefferer"
                       target="_blank"
-                     
+
                     >
                       <FaGithub />
                     </a>
@@ -80,150 +205,7 @@ import { FaGithub, FaEye } from "react-icons/fa";
                 </div>
               </div>
             </Box>
-            <Box>
-              <div 
-                className="project_box project-card"
-                style={{
-                  backgroundColor:  "#1a202c",
-                }}
-              >
-                <div className="project_image">
-                  <img src="https://user-images.githubusercontent.com/111531676/227760034-b783c050-c82b-45a3-aedb-17da6632f01a.png" alt="Learning managemen" />
-                </div>
-
-                <div className="project_name project-title"   >
-                  <h2>Clone of Dollar General Website</h2>
-                </div>
-                <div className="project_desc project-description"   >
-                  <p>
-               An E-Commerce Website : Clone of Dollar General (US based company)
-                  </p>
-                </div>
-                <div className="project_tech_stack project-tech-stack"   >
-                  <h5>
-                    <span>Tech Stack :</span>React, JavaScript, HTML, CSS
-                  </h5>
-                </div>
-                <div className="project_icon">
-                  <div className="github_link project-github-link"   >
-                    <a
-                      href="https://github.com/9802HEMENSAN/dysfunctional-stomach-1310"
-                      rel="noopener norefferer"
-                      target="_blank"
-                     
-                    >
-                      <FaGithub />
-                    </a>
-                  </div>
-                  <div className="deploy_link project-deployed-link"    >
-                    <a
-                      href="https://indiasmarket.netlify.app/"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaEye />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Box>
-            <Box>
-              <div 
-                className="project_box project-card"
-                style={{
-                  backgroundColor:  "#1a202c",
-                }}
-              >
-                <div className="project_image">
-                  <img src="https://user-images.githubusercontent.com/111531676/221751824-b3bb73fe-ba78-4c56-8ced-4f671d3dbfce.png" alt="Learning managemen" />
-                </div>
-
-                <div className="project_name project-title"   >
-                  <h2>Dress-Up </h2>
-                </div>
-                <div className="project_desc project-description"   >
-                  <p>
-                  This is one of the best project that I have made.Its an Indivisual Project completed withing 5 days.
-                  </p>
-                </div>
-                <div className="project_tech_stack project-tech-stack"   >
-                  <h5>
-                    <span>Tech Stack :</span>React, JavaScript, HTML, CSS
-                  </h5>
-                </div>
-                <div className="project_icon">
-                  <div className="github_link project-github-link"   >
-                    <a
-                      href="https://github.com/9802HEMENSAN/potent-toothbrush-7925"
-                      rel="noopener norefferer"
-                      target="_blank"
-                     
-                    >
-                      <FaGithub />
-                    </a>
-                  </div>
-                  <div className="deploy_link project-deployed-link"    >
-                    <a
-                      href="https://hemensan-dress-up.netlify.app/"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaEye />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Box>
-            <Box>
-              <div 
-                className="project_box project-card"
-                style={{
-                  backgroundColor:  "#1a202c",
-                }}
-              >
-                <div className="project_image">
-                  <img src="https://user-images.githubusercontent.com/111531676/227760361-52ceda03-c279-4a05-bc89-770cd7f849c8.png" alt="Learning managemen" />
-                </div>
-
-                <div className="project_name project-title"   >
-                  <h2>Solutions Management</h2>
-                </div>
-                <div className="project_desc project-description"   >
-                  <p>
-                 An Platform that provides solutions for every software technologies.
-                  </p>
-                </div>
-                <div className="project_tech_stack project-tech-stack"   >
-                  <h5>
-                    <span>Tech Stack :</span> JavaScript, HTML, CSS
-                  </h5>
-                </div>
-                <div className="project_icon">
-                  <div className="github_link project-github-link"   >
-                    <a
-                      href="https://github.com/9802HEMENSAN/haloed-stick-4627"
-                      rel="noopener norefferer"
-                      target="_blank"
-                     
-                    >
-                      <FaGithub />
-                    </a>
-                  </div>
-                  <div className="deploy_link project-deployed-link"    >
-                    <a
-                      href="https://fanciful-croquembouche-2f4752.netlify.app/"
-                      rel="noopener norefferer"
-                      target="_blank"
-                    >
-                      <FaEye />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Box>
-
-           
- 
+  
           </SimpleGrid>
         </div>
       </div>

@@ -96,7 +96,8 @@ import ContactIcon from "./ContactIcon";
                       as={PhoneIcon}
                     />
                     <Text fontSize={{ lg: "xl", md: "lg", sm: "sm", base: "sm" }}>
-                      +91 6264866332
+                     <a  href="tel:+918962661319"
+                            target="_blank">+91-8962661319</a>
                     </Text>
                   </Flex>
                 </GridItem>
@@ -125,7 +126,7 @@ import ContactIcon from "./ContactIcon";
               <ContactIcon border={"1px solid red"} />
               <form
                 style={{ width: "100%" }}
-               
+                action="https://formspree.io/f/mrgvwygk" method="post"
               >
                 <FormControl isRequired>
                   <FormLabel>Name</FormLabel>

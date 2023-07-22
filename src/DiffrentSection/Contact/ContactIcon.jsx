@@ -69,3 +69,8 @@ const ContactIcon = () => {
 };
 
 export default ContactIcon;
+{/* <div class="github-icon-contact animated">
+                    <img src="Images/icons8-phone-50.png" alt="">
+                    <p id="contact-phone"><a style="color: black;" href="tel:+919582820389"
+                            target="_blank">+91-9582820389</a></p>
+                </div> */}

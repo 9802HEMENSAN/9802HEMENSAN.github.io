@@ -1,35 +1,52 @@
-import React from 'react'
-
-import "./about.css"
+import React from "react";
+import { Box, Heading } from "@chakra-ui/react";
+import "./about.css";
 function About() {
-    return (
-        <>
-            <section className="about section" id="about"  style={{
-        backgroundColor: "#4d0026",
-        color : "white"
-      }}  >
+  return (
+    <>
+      <section
+        className="about section"
+        id="about"
+        style={{
+          backgroundColor: "#4d0026",
+          // backgroundColor: "#660033",
+          color: "white",
+        }}
+      >
+        <Heading className="title">About me</Heading>
+        <Box
+          clasName="about-content"
+          style={{
+            display: "flex",
+          }}
+        >
+          <Box clasName="columnAbout rightAbout">
+            <Box className="text" classid="user-detail-name">
+              I am Hemensan Mahilange{" "}
+            </Box>
 
-                <h2 className="title">About me</h2>
-                <div clasName="about-content">
-                    <div clasName="columnAbout rightAbout">
-                        <div className="text"  id="user-detail-name" >I'm  Hemensan Mahilange and I'm a <span clasName="typing-2"></span></div>
-                        <p className="descritpon"  id="user-detail-intro"
- > A <b>passionate</b> full-stack developer with expertise in <b>NodeJS, ExpressJS, MongoDB, Mongoose, ReactJS,
-                            JavaScript, HTML, and CSS</b>. I always take a <b>goal-oriented approach</b> to completing tasks
-                            and <b>delivering scalable products</b> that provide a <b>wow-user</b> experience.
-                            One of my recent achievements was developing a <b>fully functional e-commerce platform</b> platform with five members.
-                            My <b>ability to lead a team effectively</b> and my passion for <b>backend development</b> make me stand out as a developer.
-                            I look forward to leveraging my skills and experience to <b>create innovative solutions</b> that meet business goals.</p>
-
-                    </div>
-                </div>
-
-            </section>
-
-
-        </>
-
-    )
+            <Box className="desc">
+              <p className="description">
+                I am a full-stack MERN developer with expertise in JavaScript,
+                Node.js, Express.js, React.js, Redux, and MongoDB. I possess a
+                strong background in developing scalable, efficient, and secure
+                web applications. My proficiency lies in building RESTful APIs,
+                utilizing modern frontend frameworks, and working with NoSQL
+                databases. This allows me to deliver high-quality software
+                solutions that meet business requirements. I excel in
+                collaborating with cross-functional teams and staying up-to-date
+                with emerging trends and technologies. My dedication to
+                continuous improvement ensures that I can deliver innovative and
+                cutting-edge solutions. Overall, as a MERN developer, I bring a
+                comprehensive skill set and a passion for creating exceptional
+                user experiences.
+              </p>
+            </Box>
+          </Box>
+        </Box>
+      </section>
+    </>
+  );
 }
 
-export default About
+export default About;

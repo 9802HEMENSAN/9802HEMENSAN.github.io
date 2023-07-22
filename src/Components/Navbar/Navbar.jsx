@@ -46,8 +46,6 @@ const Navbar = () => {
         <Box>
           <div
             style={{
-              // backgroundColor: "#edf2f8",
-              // backgroundColor: "#2c1e4a",
               backgroundColor: "#4d0026",
               color : "white"
             }}
@@ -68,7 +66,7 @@ const Navbar = () => {
                   <li>
                     <a href="#"  class="nav-link home" >HOME</a>
                   </li>
-                  <li>
+                  <li>  
                     <a href="#about" class="nav-link about"> ABOUT ME </a>
                   </li>
                   <li>
@@ -85,24 +83,24 @@ const Navbar = () => {
 
                     <button   id="resume-button-1"
                       style={{
-                        backgroundColor: "#3500D3",
+                        backgroundColor: "#ab364d",
                         color: "white",
                         fontWeight: "bold",
                         fontSize: "15px",
                         cursor: "pointer",
                         padding: "8px 15px",
                         borderRadius: "15px",
-                        border: "3px solid rgba(11,12,16,0.4)",
+                        // border: "3px solid rgba(11,12,16,0.4)",
                       }}
                       onClick={() =>
-                        window.open("https://drive.google.com/file/d/1QeUtzyi-VBmqX7A28A7N1CymmjN5cCHD/view?usp=share_link")
+                        window.open("https://drive.google.com/file/d/1QeUtzyi-VBmqX7A28A7N1CymmjN5cCHD/view?usp=sharing")
                       }
 
                     >
                       <a 
                         id="resume-link-1"
                         href={resume}
-                        download="Hemensan-Mahilagne-Resume.pdf"
+                        download = "Hemensan-Mahilange-Resume.pdf"
                         style={{
                           textDecoration: "none",
                           color: "inherit",
@@ -128,8 +126,8 @@ const Navbar = () => {
         <Box>
           <div
             style={{
-              backgroundColor: "#2c1e4a",
-              color : "white"
+              backgroundColor: "#4d0026",
+              color: "white"
             }}
             className="navbar"
             id="nav-menu"
@@ -138,9 +136,9 @@ const Navbar = () => {
               <div className="navbar_container">
                 <ul className="left_navbar">
                   <div className="left_navbar_logo">
-                    <h2>
+                    <h3>
                       Hemensan<span>Mahilange</span>
-                    </h2>
+                    </h3>
                   </div>
                 </ul>
 
@@ -165,7 +163,8 @@ const Navbar = () => {
                       <DrawerOverlay />
                       <DrawerContent
                         style={{
-                          backgroundColor: "#edf2f8",
+                          backgroundColor: "#4d0026",
+                          color: "white"
                         }}
                       >
                         <DrawerCloseButton fontSize="30px" />
@@ -189,12 +188,12 @@ const Navbar = () => {
                               <a href="#contact" >CONTACT</a>
                             </li>
                             <li onClick={onClose}>
-                              <button id="resume-button-1"
+                              <button  
                                 style={{
-                                  backgroundColor: "#3500D3",
+                                  backgroundColor: "red",
                                   color: "white",
                                   fontWeight: "bold",
-                                  fontSize: "15px",
+                                  fontSize: "25px",
                                   cursor: "pointer",
                                   padding: "8px 15px",
                                   borderRadius: "15px",
@@ -233,7 +232,7 @@ const Navbar = () => {
         <Box>
           <div
             style={{
-              backgroundColor: "#2c1e4a",
+              backgroundColor: "#4d0026",
               color : "white"
             }}
             className="navbar"
@@ -243,9 +242,9 @@ const Navbar = () => {
               <div className="navbar_container">
                 <ul className="left_navbar">
                   <div className="left_navbar_logo">
-                    <h2>
+                    <h3>
                       Hemensan<span>Mahilange</span>
-                    </h2>
+                    </h3>
                   </div>
                 </ul>
 
@@ -270,10 +269,14 @@ const Navbar = () => {
                       <DrawerOverlay />
                       <DrawerContent
                         style={{
-                          backgroundColor: "#edf2f8",
+                          // backgroundColor: "#751515",
+                          backgroundColor: "#4d0026",
+                          color : "white",
+                          fontFamily : "sans-serif",
+                          fontSize: "20px",
                         }}
                       >
-                        <DrawerCloseButton fontSize="30px" />
+                        <DrawerCloseButton fontSize="25px" />
 
                         <DrawerBody textAlign="center">
                           <ul className="moAndTablet">
@@ -296,14 +299,14 @@ const Navbar = () => {
                             <li onClick={onClose}>
                               <button
                                 style={{
-                                  backgroundColor: "#3500D3",
+                                  backgroundColor: "#a82e98",
                                   color: "white",
                                   fontWeight: "bold",
-                                  fontSize: "15px",
+                                  fontSize: "30px",
                                   cursor: "pointer",
                                   padding: "8px 15px",
                                   borderRadius: "15px",
-                                  border: "3px solid rgba(11,12,16,0.4)",
+                                  border: "red",
                                 }}
                                 onClick={() =>
                                   window.open("https://drive.google.com/file/d/1QeUtzyi-VBmqX7A28A7N1CymmjN5cCHD/view?usp=share_link")

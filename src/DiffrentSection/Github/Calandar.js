@@ -1,7 +1,12 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import "./Calendar.css";
-
+import {
+  Box,
+  Flex,
+  useDisclosure,
+  Button,
+} from "@chakra-ui/react"
 
 function Calendar() {
   return (
@@ -20,22 +25,33 @@ function Calendar() {
       </div>
     </div>
 
- 
+  
 
-      <div className='stats'        
+    <Flex
+      className="stats"
       style={{
-        display : "flex",
-        gap : "10px" ,
+        display: "flex",
+        flexDirection: ["column", "column", "column", "row"],
+        gap: "10px",
         backgroundColor: "#4d0026",
-        color : "white"
-      }}   >
-        <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=9802HEMENSAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact"/>
-        <img  id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=9802HEMENSAN&theme=dark" alt="stats" />
-        <img   id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=9802HEMENSAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_public=true&count_private=true" alt="Github tropy" />
-       
-      </div>
-
-
+        color: "white"
+      }}
+    >
+      <img
+        id="github-top-langs"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=9802HEMENSAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
+      />
+      <img
+        id="github-streak-stats"
+        src="https://github-readme-streak-stats.herokuapp.com?user=9802HEMENSAN&theme=dark"
+        alt="stats"
+      />
+      <img
+        id="github-stats-card"
+        src="https://github-readme-stats.vercel.app/api?username=9802HEMENSAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_public=true&count_private=true"
+        alt="Github tropy"
+      />
+    </Flex>
     </>
   );
 }

@@ -1,7 +1,7 @@
 .skills_container {
     width: 100%;
     margin: auto;
-    padding: 60px 0;
+  
 
 }
 
@@ -10,8 +10,6 @@
     text-align: center;
     font-size: 35px;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 25px;
     font-family: "Poppins", sans-serif;
     color: white;
 }
@@ -27,7 +25,7 @@
     transform: translate(-50%);
   } */
 
-.skill_heading .title::after {
+/* .skill_heading .title::after {
     content: "My Skills , My Strength";
     position: absolute;
     bottom: -17px;
@@ -37,7 +35,7 @@
     padding: 5px;
     background-color: white;
     transform: translate(-50%);
-}
+} */
 
 
 .skills_grid {
@@ -51,8 +49,8 @@
 .skills_grid_box {
     height: 170px;
     border-radius: 10px;
-    /* background-color: black;
-    box-shadow: rgb(255, 86, 34) 0px 5px 15px; */
+    /* background-color: black; */
+    box-shadow: rgba(152, 66, 87, 0.9) 0px 18px 50px -10px ;
     color: white;
     animation: all 3s ease-in-out;
 }
@@ -60,7 +58,7 @@
 .skills_grid_box:hover {
     transform: scale(1.05);
     overflow: hidden;
-    box-shadow: 4px 5px 4px 3px rgba(165, 233, 7, 0.976) !important;
+    /* box-shadow: 4px 5px 4px 3px rgba(165, 233, 7, 0.976) !important; */
     cursor: pointer;
 
 }
@@ -106,8 +104,8 @@
     border-radius: 8px;
     font-size: 20px;
     font-weight: 600;
-    border: 1px solid grey;
-    background-color: #e4002b;
+    /* border: 1px solid grey; */
+    background-color: #732525;
     color: #fff;
 }
 
@@ -130,8 +128,8 @@
     border-radius: 8px;
     font-size: 20px;
     font-weight: 600;
-    border: 1px solid grey;
-    background-color: #e4002b;
+    /* border: 1px solid grey; */
+    background-color: #732525;
     color: #fff;
 }
 

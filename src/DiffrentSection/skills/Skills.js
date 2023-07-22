@@ -1,6 +1,6 @@
 import React from "react"; 
-import { Box, SimpleGrid } from "@chakra-ui/react";
-
+import { Box, SimpleGrid , Heading } from "@chakra-ui/react";
+ 
 import "./skills.css";
 
 import { useState } from "react";
@@ -11,16 +11,16 @@ const Skills = () => {
   const [skills, setSkills] = useState(skills_data);
  
   return (
-    <div className="skills_container" id="skills"  style={{
-      // backgroundColor: "#edf2f8",
-      // backgroundColor: "#2c1e4a",
+    <section className="skills_container" id="skills"  style={{
+      boxshadow: "0px 4px 8px rgba(118, 69, 246, 0.4)",
       backgroundColor: "#4d0026",
+      // backgroundColor: "#660033",
       color : "white"
     }} >
-      <div className="skill_heading">
-        <h2 className="title">
+      <div className="skill_heading"    >
+        <Heading className="title" >
           Skills
-        </h2>
+        </Heading>
       </div>
 
       <div className="skills_btn">
@@ -32,7 +32,9 @@ const Skills = () => {
         <SimpleGrid columns={[1, 2, 3, 4, 5]} spacing="30px">
           {skills_data?.map((elem) => (
             <Box key={elem.name}   >
-              <div className="skills_grid_box skills-card" style={{ boxShadow: elem.boxshadow, backgroundColor: elem.backgroundColor }}>
+              <div className="skills_grid_box skills-card" style={{ 
+                  //  boxShadow: "rgba(152, 66, 87, 0.9) 0px 18px 50px -10px"
+                  }}>
                 <div className="skills_grid_box_img" >
                   <img  className="skills-card-img" src={elem.skill_avator} alt="skills_logo" />
                 </div>
@@ -57,7 +59,10 @@ const Skills = () => {
         <SimpleGrid columns={[1, 2, 3, 4, 5]} spacing="30px">
           {softSkill?.map((elem) => (
             <Box key={elem.name} class="skills-card" > 
-              <div className="skills_grid_box skills-card" style={{ boxShadow: elem.boxshadow, backgroundColor: elem.backgroundColor }}>
+              <div className="skills_grid_box skills-card" style={{               
+                boxShadow: "rgba(152, 66, 87, 0.9) 0px 18px 50px -10px"
+              
+                 }}>
                 <div className="skills_grid_box_img">
                   <img  class="skills-card-img" src={elem.skill_avator} alt="skills_logo" />
                 </div>
@@ -81,7 +86,9 @@ const Skills = () => {
         <SimpleGrid columns={[1, 2, 3, 4, 5]} spacing="30px">
           {toolsData?.map((elem) => (
             <Box key={elem.name} class="skills-card" >
-              <div className="skills_grid_box skills-card" style={{ boxShadow: elem.boxshadow, backgroundColor: elem.backgroundColor }}>
+              <div className="skills_grid_box skills-card" 
+ 
+              >
                 <div className="skills_grid_box_img">
                   <img  class="skills-card-img" src={elem.skill_avator} alt="skills_logo" />
                 </div>
@@ -96,7 +103,7 @@ const Skills = () => {
       </div>
 
 
-    </div>
+    </section>
   );
 };
 
